@@ -107,6 +107,23 @@ public class Main {
 
 //        Septinta uzduotis
 
+        System.out.println("--------7 uzd------------");
+
+
+        String starWars7;
+
+        starWars7 = "Star Wars: Episode "+ " ".repeat( (int) (Math.random() * 10))+((int) (Math.random() * 7)+1) + " - A New Hope";
+
+        System.out.println(starWars7);
+
+        System.out.println("-------------------");
+
+        starWars7 = starWars7.substring(starWars7.length()-14);
+            System.out.println(starWars7.substring(0,1));
+
+
+
+
 
 
 
