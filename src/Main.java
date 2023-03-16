@@ -1,3 +1,5 @@
+import java.sql.PseudoColumnUsage;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -16,8 +18,15 @@ public class Main {
 
         if (actorName1.length() < actorSurname1.length()) {
             System.out.println(actorName1);
-        } else {
+        }
+
+        if (actorName1.length() > actorSurname1.length()) {
             System.out.println(actorSurname1);
+        }
+
+        if (actorName1.length() == actorSurname1.length()) {
+
+            System.out.println(actorName1 + " " + actorSurname1);
         }
 
 
@@ -119,9 +128,12 @@ public class Main {
         System.out.println("-------------------");
 
         starWars7 = starWars7.substring(starWars7.length()-14);
-            System.out.println(starWars7.substring(0,1));
+        System.out.println(starWars7.substring(0,1));
 
 
+//            Astunta uzduotis
+
+        System.out.println("--------8 uzd------------");
 
 
 
