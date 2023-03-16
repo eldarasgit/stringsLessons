@@ -88,7 +88,7 @@ public class Main {
 
         System.out.println("-------------------");
 
-        System.out.println(paris5.replaceAll("[A,a]","*"));
+        System.out.println(paris5.replaceAll("[Aa]","*"));
 
 
 //        Sesta uzduotis
